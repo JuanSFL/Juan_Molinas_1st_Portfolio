@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+
+    font-family:fantasy;
+    transition: all .5s;
+}
+
+.header {
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-bottom:5%;
+    border-bottom: solid;
+    text-decoration: none;
+    
+}
+.header h1{
+    box-shadow: 10px 10px 10px black;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:flex-start;
+    justify-content: space-around;
+    
+}
+
+header nav ul li {
+    
+    border-style:ridge;
+    border-radius: 5px;
+    padding: 8px;
+    
+}
+
+header nav ul li:hover {
+box-shadow: 5px 5px 15px black ;
+
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.mylife  {
+text-align: center;
+border-bottom: solid;
+}
+
+.work {
+    text-align: center;
+    display: block;
+    
+}
+
+.contact {
+    padding-top: 1%;
+    text-align: center;
+    background-color: white;
+    color: black;
+    
+}
+
+.contact ul {
+    padding-top: 5%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.contact ul li {
+    border-style:ridge;
+    border-radius: 5px;
+    padding: 8px;
+    
+}
+
+.contact ul li:hover {
+    box-shadow: 5px 5px 15px black;
+}
+
+.work img:hover {
+    size-adjust: 10%;
+    box-shadow: 1px 1px 15px white;
+    transition: all .4s;
+    transform: scale(1.25);
+}
